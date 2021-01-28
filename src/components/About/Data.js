@@ -1,4 +1,4 @@
-import bgImg from '../images/ProfilePic.jpg';
+import bgImg from '../../images/ProfilePic.jpg';
 
 export const homeObjOne = {
     id: 'about',

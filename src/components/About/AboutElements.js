@@ -4,6 +4,7 @@ import styled from 'styled-components';
 export const AboutContainer = styled.div`
     color: #fff;
     background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#010606')};
+    max-height:auto;
 
     @media screen and (max-width: 768px){
         padding: 100px 0;
@@ -100,5 +101,9 @@ export const Img = styled.img`
     width: 75%;
     margin: 0 0 10px 0;
     padding-right: 0;
+
+    @media screen and (max-width: 780px){
+        width: 65%;
+    }
     
 `
