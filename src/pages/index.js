@@ -3,6 +3,7 @@ import About from '../components/About';
 import { homeObjOne } from '../components/About/Data';
 import Contact from '../components/Contact';
 import { contactObj } from '../components/Contact/Data';
+import Footer from '../components/Footer';
 import HeroSection from '../components/HeroSection';
 import Navbar from '../components/NavBar';
 import Projects from '../components/Projects';
@@ -24,6 +25,7 @@ const Home = () => {
             <About { ...homeObjOne }/>
             <Projects />
             <Contact { ... contactObj} />
+            <Footer />
         </>
     )
 }

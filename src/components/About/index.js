@@ -27,7 +27,7 @@ const About = ({lightBg, id, imgStart, topLine, headLine, description, lightText
                                 <Heading lightText={lightText}>{headLine}</Heading>
                                 <Subtitle darkText={darkText}>{description}</Subtitle>
                                 <BtnWrap>
-                                    <Button to='home'
+                                    <Button to='contact'
                                     smooth={true}
                                     duration={500}
                                     spy={true}

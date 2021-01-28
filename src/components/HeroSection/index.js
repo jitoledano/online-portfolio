@@ -32,7 +32,14 @@ const HeroSection = () => {
                 <HeroH1> I am Jorge Isaac Toledano</HeroH1>
                 <HeroP> A React Developer based in Lakewood, Colorado. Want to work with me?</HeroP>
                 <HeroBtnWrapper>
-                    <Button to='contact' onMouseEnter={onHover} onMouseLeave={onHover}>
+                    <Button to='contact'
+                     smooth={true}
+                     duration={500}
+                     spy={true}
+                     exact='true'
+                     offset={-80} 
+                    onMouseEnter={onHover} 
+                    onMouseLeave={onHover}>
                         Contact {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
                 </HeroBtnWrapper>
