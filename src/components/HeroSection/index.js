@@ -30,7 +30,7 @@ const HeroSection = () => {
             </HeroBg>
             <HeroContent>
                 <HeroH1> I am Jorge Isaac Toledano</HeroH1>
-                <HeroP> A React Developer based in Lakewood, Colorado. Want to work with me?</HeroP>
+                <HeroP> A Cloud Security Engineer based in Denver, Colorado. Want to work with me?</HeroP>
                 <HeroBtnWrapper>
                     <Button to='contact'
                      smooth={true}
